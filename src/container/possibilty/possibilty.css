@@ -1,0 +1,63 @@
+.gpt__possibilty {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  padding-bottom: 100px;
+}
+.gpt__possibilty .gpt__possibilty-left {
+  margin-right: 4rem;
+}
+.gpt__possibilty .gpt__possibilty-left img {
+  width: 467.31px;
+  height: auto;
+}
+.gpt__possibilty .gpt__possibilty-right {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 100px;
+}
+.gpt__possibilty .gpt__possibilty-right .gpt__possibilty-right-top-text p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: #71e5ff;
+}
+.gpt__possibilty .gpt__possibilty-right .gpt__possibilty-right-top-heading h2 {
+  font-family: inherit;
+  font-style: normal;
+  margin: 0;
+  font-weight: 800;
+  font-size: 34px;
+  line-height: 45px;
+  background: var(--gradient-text);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.gpt__possibilty .gpt__possibilty-right .gpt__possibilty-right-text p {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--color-text);
+}
+.gpt__possibilty .gpt__possibilty-right .gpt__possibilty-right-link a {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--color-subtext);
+}
+@media screen and (max-width: 1050px) {
+  .gpt__possibilty {
+    flex-direction: column;
+    justify-items: center;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 550px) {
+}

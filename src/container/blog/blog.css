@@ -1,0 +1,153 @@
+.gpt__blog .gpt__blog-heading h2 {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 62px;
+  line-height: 75px;
+  letter-spacing: -0.04em;
+  background: var(--gradient-text);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.gpt__blog .gpt__blog-heading {
+  width: 70%;
+  padding-bottom: 50px;
+}
+.blog__article p,
+h2,
+img {
+  margin: 0;
+}
+.background-blog {
+  background-color: var(--color-blog);
+  padding: 20px;
+}
+.blog__article .background-blog .blog__article-date p,
+.blog__article .background-blog .blog__article-explore a {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11.649px;
+  line-height: 35px;
+  color: #ffffff;
+}
+.gpt__blog-comp
+  .gpt__blog-a
+  .blog__article
+  .background-blog
+  .blog__article-heading {
+  padding-bottom: calc(100px * 2.7);
+}
+.blog__article .background-blog .blog__article-heading h2 {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 19.3154px;
+  line-height: 30px;
+  color: #ffffff;
+  padding-bottom: 100px;
+}
+.gpt__blog-comp {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.gpt__blog .gpt__blog-comp .gpt__blog-a .blog__article .blog__article-img img {
+  width: 417.03px;
+  height: auto;
+  overflow: hidden;
+}
+.gpt__blog .gpt__blog-comp .gpt__blog-b .blog__article .blog__article-img img {
+  width: 327.34px;
+  height: auto;
+  overflow: hidden;
+}
+
+.gpt__blog .gpt__blog-comp .gpt__blog-b {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  column-gap: 20px;
+  padding-left: 50px;
+}
+.gpt__blog .gpt__blog-comp .gpt__blog-b > * {
+  flex: 1 1 200px;
+}
+
+@media screen and (max-width: 550px) {
+  .gpt__blog .gpt__blog-comp .gpt__blog-b {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .gpt__blog-comp {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .gpt__blog-comp
+    .gpt__blog-a
+    .blog__article
+    .background-blog
+    .blog__article-heading {
+    padding-bottom: 100px;
+  }
+  .gpt__blog .gpt__blog-heading h2 {
+    font-size: 42px;
+  }
+  .gpt__blog .gpt__blog-heading {
+    width: 100%;
+  }
+  .gpt__blog .gpt__blog-comp .gpt__blog-a {
+    flex-wrap: wrap;
+    row-gap: 20px;
+    column-gap: 20px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+  }
+  .gpt__blog
+    .gpt__blog-comp
+    .gpt__blog-a
+    .blog__article
+    .blog__article-img
+    img {
+    width: 100%;
+    height: auto;
+  }
+  .gpt__blog
+    .gpt__blog-comp
+    .gpt__blog-b
+    .blog__article
+    .blog__article-img
+    img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .gpt__blog .gpt__blog-heading {
+    width: 100%;
+  }
+  .gpt__blog
+    .gpt__blog-comp
+    .gpt__blog-a
+    .blog__article
+    .blog__article-img
+    img {
+    width: 100%;
+    height: auto;
+  }
+  .gpt__blog
+    .gpt__blog-comp
+    .gpt__blog-b
+    .blog__article
+    .blog__article-img
+    img {
+    width: 100%;
+    height: auto;
+  }
+}

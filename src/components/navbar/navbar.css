@@ -1,0 +1,113 @@
+.gpt__navbar {
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+}
+.gpt__navbar-logo img {
+  width: 80px;
+  height: auto;
+}
+
+.gpt__navbar-links {
+  flex-grow: 2;
+}
+.gpt__navbar-links ul li {
+  display: inline-block;
+  padding-left: 54px;
+}
+.gpt__navbar-login {
+  justify-content: flex-end;
+}
+.gpt__navbar-login a {
+  cursor: pointer;
+}
+.gpt__navbar-login button {
+  width: 152px;
+  height: 48px;
+  background-color: var(--button-bg);
+  border: none;
+  font-size: 18px;
+  color: var(--color-white);
+  font-weight: 500;
+  margin-left: 26px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  font-family: inherit;
+}
+/* Menu Animation */
+.scale-up-center {
+  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
+    both;
+  animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+.gpt__navbar-menu_container {
+  background: var(--color-footer);
+  padding: 2rem;
+  position: absolute;
+  right: 0;
+  top: 30px;
+  margin-top: 1rem;
+  min-width: 100vw;
+  height: 100vh;
+  opacity: 1;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+.gpt__navbar-menu {
+  margin-left: 1rem;
+  display: none;
+  position: relative;
+}
+.gpt__navbar-menu ul li {
+  display: block;
+  list-style-type: none;
+  padding-bottom: 20px;
+  font-weight: bold;
+}
+.gpt__navbar-menu svg {
+  cursor: pointer;
+}
+@media screen and (max-width: 1050px) {
+  .gpt__navbar-links_container {
+    display: none;
+  }
+  .gpt__navbar-links {
+    display: none;
+  }
+  .gpt__navbar-menu {
+    display: flex;
+  }
+  .gpt__navbar-login {
+    display: none;
+  }
+}
+@media screen and (max-width: 550px) {
+  .gpt__navbar-links,
+  .gpt__navbar-login {
+    display: none;
+  }
+}
